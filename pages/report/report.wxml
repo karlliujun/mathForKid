@@ -1,0 +1,10 @@
+<!--pages/report/report.wxml-->
+<view class="container">
+  <text>题目总数： {{result.total}}</text>
+  <text>正确总数：{{result.correct}}</text>
+  <text>用时： {{result.time}}</text>
+  <view class='report-bottom'>
+    <button bindtap="reStart">重新开始</button>
+  </view>
+</view>
+

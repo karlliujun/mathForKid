@@ -1,0 +1,5 @@
+/* pages/report/report.wxss */
+
+.report-bottom {
+  margin-top : 100rpx;
+}

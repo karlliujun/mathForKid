@@ -1,41 +1,26 @@
 /* pages/main/main.wxss */
-
-.topBtn {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-size: 12pt;
+.container {
+  margin-top: 5rpx;
 }
 
-.topBtn .topItem {
-  width: 150rpx;
-  height: 100rpx;
-  line-height: 100rpx;
-  text-align: center;
-  margin: 20rpx;
-  border-radius: 5%;
+.progress {
+  width: 90%
 }
 
-.topBtn .topItemSlt {
-  width: 150rpx;
-  height: 100rpx;
-  line-height: 100rpx;
-  text-align: center;
-  margin: 20rpx;
-  border-radius: 5%;
+.progress progress {
+  margin-top : 10rpx;
 }
 
 .mainView {
   vertical-align: center;
-  height: 600rpx;
+  height: 500rpx;
   width: 100%;
   text-align: center;
   line-height: 200rpx;
   font-size: 26pt;
 }
 
-.ansView {
+.resultView {
   margin: 0rpx auto;
   width: 400rpx;
   display: flex;
@@ -44,17 +29,7 @@
   font-size: 15pt;
 }
 
-.ansSide {
-  width: 50rpx;
-}
-
-.ansTitle {
-  display: inline-block;
-  justify-content: center;
-  line-height: 30rpx;
-}
-
-.userAns {
+.resultInput {
   margin: 0rpx auto;
   width: 300rpx;
   height: 130rpx;
@@ -71,7 +46,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 30rpx solid #aaa;
+  margin-bottom : 20rpx;
 }
 
 .btnView view {

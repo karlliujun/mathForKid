@@ -70,7 +70,7 @@ Page({
     this.data.examType = e.detail.value
   },
   start: function() {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../main/main?examcfg=' + JSON.stringify({
         examScope:this.data.examScope, 
         examCount:this.data.examCount,
