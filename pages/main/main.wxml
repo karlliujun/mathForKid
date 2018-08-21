@@ -1,0 +1,37 @@
+<!--main.wxml-->
+<view class="container">
+  <!--view class="topBtn">
+    <button type="{{mop == '+'?'primary':'default'}}" class="{{mop == '+'?'topItemSlt':'topItem'}} " bindtap="sltPlus">开始</button>
+  </view-->
+  <view class="mainView">
+    <text class="proShow">{{firstOperand}} {{operator}} {{secondOperand}}  =</text>
+    <view class='ansView'>
+      <text class='ansTitle ansSide'></text>
+      <input class='userAns' disabled='true' bindinput="bindKeyInput" focus="{{inputFocus}}" type="number" bindconfirm="ansSubmit" bindfocus="focusInputEvent" placeholder-style='color:#eee;' value='{{result}}' maxlength='3' bindblur='ansSubmit' confirm-type="done" />
+      <text class="ansSide {{isRight==true?'isRightCls':'isWrongCls'}}">{{infoTxt}}</text>
+    </view>
+  </view>
+  <view class="btnView">
+    <view class="numBtns">
+      <button bindtap='button1'>1</button>
+      <button bindtap='button2'>2</button>
+      <button bindtap='button3'>3</button>
+    </view>
+    <view class="numBtns">
+      <button bindtap='button4'>4</button>
+      <button bindtap='button5'>5</button>
+      <button bindtap='button6'>6</button>
+    </view>
+    <view class="numBtns">
+      <button bindtap='button7'>7</button>
+      <button bindtap='button8'>8</button>
+      <button bindtap='button9'>9</button>
+    </view>
+    <view class="numBtns">
+      <button bindtap='button0'>0</button>
+      <button bindtap='buttonX'>x</button>
+      <button bindtap='buttonOk'>OK</button>
+    </view>
+  </view>
+</view>
+

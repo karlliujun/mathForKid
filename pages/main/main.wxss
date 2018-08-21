@@ -1,0 +1,88 @@
+/* pages/main/main.wxss */
+
+.topBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12pt;
+}
+
+.topBtn .topItem {
+  width: 150rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 20rpx;
+  border-radius: 5%;
+}
+
+.topBtn .topItemSlt {
+  width: 150rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 20rpx;
+  border-radius: 5%;
+}
+
+.mainView {
+  vertical-align: center;
+  height: 600rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 26pt;
+}
+
+.ansView {
+  margin: 0rpx auto;
+  width: 400rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15pt;
+}
+
+.ansSide {
+  width: 50rpx;
+}
+
+.ansTitle {
+  display: inline-block;
+  justify-content: center;
+  line-height: 30rpx;
+}
+
+.userAns {
+  margin: 0rpx auto;
+  width: 300rpx;
+  height: 130rpx;
+  display: inline-block;
+  justify-content: center;
+  line-height: 130rpx;
+  border-bottom: 1rpx solid gray;
+  font-size: 30pt;
+}
+
+.btnView {
+  padding-bottom: 10rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 30rpx solid #aaa;
+}
+
+.btnView view {
+  margin: 10rpx auto;
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btnView view button {
+  width: 32%;
+  margin: 1rpx;
+}

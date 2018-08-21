@@ -1,0 +1,57 @@
+/**index.wxss**/
+.exam-scope {
+  width:90%;
+  margin-bottom: 100rpx;
+  margin-left:30rpx;
+}
+
+.exam-scope text {
+  line-height: 100rpx;
+  font-size: 12pt;
+  margin-bottom: 10rpx;
+}
+
+.exam-scope-radio {
+  margin-right: 20rpx;
+}
+
+.exam-count {
+  width:90%;
+  margin-bottom: 100rpx;
+  margin-left:30rpx;
+}
+
+.exam-count text {
+  line-height: 100rpx;
+  font-size: 12pt;
+  margin-bottom: 10rpx;
+}
+
+.exam-count-radio {
+  margin-right: 20rpx;
+}
+
+.exam-type {
+  width:90%;
+  margin-bottom: 100rpx;
+  margin-left:30rpx;
+}
+
+.exam-type text {
+  line-height: 100rpx;
+  font-size: 12pt;
+  margin-bottom: 10rpx;
+}
+
+.exam-type-radio {
+  margin-right : 40rpx;
+}
+
+.exam-confirm {
+  width:90%;
+}
+
+.exam-confirm button {
+  width: 50%;
+  align-items: center
+}

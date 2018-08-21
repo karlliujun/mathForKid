@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="exam-scope">
+    <text>多少以内加减法：</text>
+    <radio-group class="radio-group" bindchange="examScopeChange">
+      <label class="exam-scope-radio" wx:for="{{items}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="exam-count">
+    <text>题目数量：</text>
+    <radio-group class="radio-group" bindchange="examCountChange">
+      <label class="exam-count-radio" wx:for="{{items}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+  <view class="exam-type">
+    <text>题目类型：</text>
+    <radio-group class="radio-group" bindchange="examTypeChange">
+      <label class="exam-type-radio">
+        <radio value="+" checked="true"/>+
+      </label>
+      <label class="exam-type-radio">
+        <radio value="-"/>-
+      </label>
+      <label class="exam-type-radio">
+        <radio value="random"/>随机
+      </label>
+    </radio-group>
+  </view>
+
+  <view class='exam-confirm'>
+    <button bindtap="start">开始测试</button>
+  </view>
+</view>
